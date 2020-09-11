@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProjectApp</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="chat">CHATS</string>
+    <string name="status">STATUS</string>
+    <string name="call">CALLS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="welcome">Welcome to WhatsApp Clone</string>
+    <string name="privacy_policy">Read our Privacy Policy. Tap \"Agree and continue\" to accept the Terms of Service</string>
+    <string name="agree">Agree and Continue</string>
+    <string name="phone">Enter your phone number</string>
+    <string name="verify">WhatsApp will send an SMS message to verify your phone number. What\'s my number?</string>
+    <string name="phone_num">phone number</string>
+    <string name="charges">Carrier SMS charges may apply</string>
+    <string name="code">Enter Code</string>
+    <string name="profile">Profile info</string>
+    <string name="profile_request">Please provide your name and an optional profile photo</string>
+    <string name="name">Enter your name here</string>
+    <string name="next">Next</string>
+    <string name="select_contact">Select contact</string>
+</resources>

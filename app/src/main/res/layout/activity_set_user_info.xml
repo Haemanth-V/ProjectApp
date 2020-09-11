@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.auth.SetUserInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_request"
+            android:textSize="14sp"
+            android:textColor="#887E7E"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imageViewSetProfilePic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/person"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:layout_margin="20dp"
+            app:civ_border_width="2dp"
+            app:civ_border="true"
+            app:civ_border_color="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonUserInfoNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
+</layout>
